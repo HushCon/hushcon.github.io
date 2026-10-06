@@ -1,5 +1,49 @@
-theme: minima
-title: HushCon
-description: We are HushCon
-minima:
-  skin: solarized-dark
+# ---------------------------------------------------------------
+#  Site-wide settings. Most yearly updates happen in THIS file:
+#  change the year, dates and location below and every page updates.
+# ---------------------------------------------------------------
+
+title: "HushCon 2026"
+event_dates: "December 11 and 12, 2026"
+event_location: "Seattle, WA"
+description: "Seattle and New York's community oriented security and hacking conference."
+
+# Footer
+copyright_year: 2026
+copyright_holder: "Cloak and Dagger LLC"
+contact_email_display: "info [at] hushcon [dot] com"
+
+# Images (put your files in assets/img/ and update the names here)
+# The page's binary-digit background is assets/img/binary-bg.svg (set in style.css).
+header_image: "/assets/img/gibson-background.png"   # server-room banner behind the logo
+logo_image: "/assets/img/HCcircle.png"
+
+# Top navigation - add, remove or reorder pages here
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Schedule"
+    url: "/schedule/"
+  - title: "Sponsors"
+    url: "/sponsors/"
+
+# Link shown above the footer on every page
+footer_link:
+  title: "HushCon Policy Page"
+  url: "/policy/"
+
+# ---------------------------------------------------------------
+#  GitHub Pages settings
+#  - Custom domain (hushcon.com) or a <user>.github.io repo: leave baseurl ""
+#  - Project site (e.g. user.github.io/hushcon): set baseurl: "/hushcon"
+# ---------------------------------------------------------------
+url: "https://hushcon.com"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
