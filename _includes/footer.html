@@ -1,0 +1,6 @@
+<footer class="panel site-footer">
+  {% if site.footer_link %}
+  <p><a href="{{ site.footer_link.url | relative_url }}">{{ site.footer_link.title }}</a></p>
+  {% endif %}
+  <p class="copyright">&copy; {{ site.copyright_year }} - {{ site.copyright_holder }}</p>
+</footer>

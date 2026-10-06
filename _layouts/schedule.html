@@ -1,0 +1,38 @@
+---
+layout: base
+---
+<div class="schedule-intro">
+  {{ content }}
+</div>
+
+{% for day in page.days %}
+<section class="schedule-day">
+  <h2 class="panel-title">{{ day.label }}:</h2>
+  <div class="box">
+    <ol class="slots">
+      {% for slot in day.slots %}
+      <li class="slot">
+        <span class="slot-time">{{ slot.time }}</span>
+        <span class="slot-title">
+          {% assign title_html = slot.title | markdownify | remove: '<p>' | remove: '</p>' | strip %}
+          {% if slot.abstract %}
+          <details>
+            <summary>{{ title_html }}</summary>
+            <div class="abstract">{{ slot.abstract | markdownify }}</div>
+          </details>
+          {% else %}{{ title_html }}{% endif %}
+        </span>
+        <span class="slot-speaker">{{ slot.speaker }}</span>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+{% endfor %}
+
+{% for section in page.after %}
+<section class="schedule-extra">
+  <h2 class="panel-title">{{ section.heading }}</h2>
+  {% if section.body %}<div class="box box-fit">{{ section.body | markdownify }}</div>{% endif %}
+</section>
+{% endfor %}

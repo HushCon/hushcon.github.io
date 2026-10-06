@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="banner">
+    <a href="{{ '/' | relative_url }}" class="logo-link">
+      <img class="logo" src="{{ site.logo_image | relative_url }}" alt="{{ site.title }}">
+    </a>
+    <p class="event-info">
+      {{ site.event_dates }}<br>
+      {{ site.event_location }}
+    </p>
+  </div>
+
+  <nav class="site-nav" aria-label="Main">
+    {% assign here = page.url | relative_url %}
+    {% for item in site.nav %}
+      {% assign item_url = item.url | relative_url %}
+      <a href="{{ item_url }}" class="tab{% if item_url == here %} active{% endif %}"{% if item_url == here %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+</header>

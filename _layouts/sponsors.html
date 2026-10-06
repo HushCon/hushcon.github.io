@@ -1,0 +1,21 @@
+---
+layout: base
+---
+<div class="panel-heading">
+  {{ content }}
+</div>
+
+{% for s in page.sponsors %}
+{% assign odd = forloop.index | modulo: 2 %}
+<article class="box sponsor{% if odd == 1 %} logo-right{% else %} logo-left{% endif %}">
+  {% if s.logo %}
+  <a class="sponsor-logo" href="{{ s.url }}" target="_blank" rel="noopener">
+    <img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" loading="lazy">
+  </a>
+  {% endif %}
+  <div class="sponsor-text">
+    {% unless s.logo %}<h3><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a></h3>{% endunless %}
+    {{ s.description | markdownify }}
+  </div>
+</article>
+{% endfor %}
