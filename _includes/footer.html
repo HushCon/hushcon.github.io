@@ -2,5 +2,11 @@
   {% if site.footer_link %}
   <p><a href="{{ site.footer_link.url | relative_url }}">{{ site.footer_link.title }}</a></p>
   {% endif %}
-  <p class="copyright">&copy; {{ site.copyright_year }} - {{ site.copyright_holder }}</p>
+  <p class="copyright">&copy; <span class="current-year">{{ site.time | date: "%Y" }}</span> - {{ site.copyright_holder }}</p>
+  <script>
+    // The build year is the fallback; this keeps it current between rebuilds.
+    document.querySelectorAll(".current-year").forEach(function (el) {
+      el.textContent = new Date().getFullYear();
+    });
+  </script>
 </footer>
