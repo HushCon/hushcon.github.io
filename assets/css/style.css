@@ -150,10 +150,10 @@ a { color: var(--link); }
   border: 1px solid var(--panel-border);
   border-radius: 3px;
 }
-.sponsor-text { flex: 1; }
-.sponsor-text p { margin: 0 0 8px; }
-.sponsor.logo-right .sponsor-text { padding-top: 8px; }
-.sponsor.logo-left .sponsor-text { padding-top: 8px; }
+.sponsor-body { flex: 1; }
+.sponsor-body p { margin: 0 0 8px; }
+.sponsor.logo-right .sponsor-body { padding-top: 8px; }
+.sponsor.logo-left .sponsor-body { padding-top: 8px; }
 
 /* ---------- Schedule ---------- */
 /* White headings sitting on the gray panel ("Friday:") */

@@ -13,7 +13,7 @@ layout: base
     <img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" loading="lazy">
   </a>
   {% endif %}
-  <div class="sponsor-text">
+  <div class="sponsor-body">
     {% unless s.logo %}<h3><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.name }}</a></h3>{% endunless %}
     {{ s.description | markdownify }}
   </div>
