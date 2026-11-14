@@ -73,7 +73,7 @@ days:
         title: "Lunch"
       - time: "13:00"
         title: "Mass Hacking - Not crimin' just messing with your smart scale"
-        speaker: "Phillippe Laulheret"
+        speaker: "Philippe Laulheret"
       - time: "14:00"
         title: "Hacking Everyone Because Python Sandboxing is still Broken by Design"
         speaker: "Darius Houle, Buck Mayzes, & Kiwi"
