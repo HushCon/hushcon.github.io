@@ -68,7 +68,7 @@ days:
         speaker: "Harley Kimball"
       - time: "11:45"
         title: "Where are the bits?!?"
-        speaker: "Davis Hulton & Kai Sorenson"
+        speaker: "David Hulton & Kai Sorenson"
       - time: "12:15"
         title: "Lunch"
       - time: "13:00"
