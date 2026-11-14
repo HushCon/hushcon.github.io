@@ -79,7 +79,7 @@ days:
         speaker: "Darius Houle, Buck Mayzes, & Kiwi"
       - time: "15:00"
         title: "Happy Hour"
-        speaker: "Boardman, Bell, & Assoc."
+        speaker: "Boardy Bell, Bond Bell & Co"
       - time: "16:00"
         title: "Every Price Has a Frequency: Reverse Engineering a Retail ESL Ecosystem from Shelf to SDR"
         speaker: "Groktar"
