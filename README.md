@@ -9,6 +9,21 @@ We look forward to seeing you there and making this an awesome con to be a part 
 
 .:: HushCon Staff ::.
 
+# Local Preview
+
+```sh
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+Open http://localhost:4000. Page, layout, and CSS edits rebuild automatically;
+`--livereload` also refreshes the browser. Changes to `_config.yml` require
+restarting Jekyll.
+
+Keep `theme: null` in `_config.yml`: this site supplies its own layouts and CSS.
+Otherwise, `github-pages` enables Primer, whose generated `assets/css/style.css`
+collides with ours and replaces it on subsequent rebuilds.
+
 # Schedule
 Neither HushCon, nor its staff, will prevent the delivery of accepted content once it has been scheduled for presentation - Don't have your outreach and/or lawyers contact us about something you don't like being presented; until it's a legal matter we don't care! Also, we're human, so are our speakers, the schedule is subject to change from what's displayed below.
 

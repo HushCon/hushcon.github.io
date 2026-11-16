@@ -40,6 +40,10 @@ footer_link:
 url: "https://hushcon.com"
 baseurl: ""
 
+# Use our own layouts and CSS, not GitHub Pages' default Primer theme.
+# Primer also generates assets/css/style.css and overwrites ours on rebuild.
+theme: null
+
 markdown: kramdown
 permalink: pretty
 exclude:
