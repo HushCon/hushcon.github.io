@@ -41,7 +41,7 @@ days:
         title: "DPRK NPM Malware is a joke... and why it doesn't matter"
         speaker: "Wyv"
       - time: "15:00"
-        title: "Happy Hour Sponsored by Atredis Partners"
+        title: "Happy Hour Sponsored by [Atredis Partners](https://atredis.com/)"
         speaker: "" 
       - time: "16:00"
         title: "Don't Fear the Debugger: Taming gdb and ptrace"

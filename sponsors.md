@@ -24,6 +24,34 @@ sponsors:
     description: >
       If a Mac ever refused to run your payload, there's a decent chance that was because of them.
       They maintain Santa and sell Workshop for all your naughty and nice binary needs. 
+  
+  - name: "GitLab"
+    url: "https://about.gitlab.com/"
+    logo: "/assets/img/sponsors/gitlab.png"
+    description: >
+      GitLab is The DevOps platform that empowers organizations to maximize the overall return on software development by delivering software faster and efficiently, while strengthening security and compliance. With GitLab, every team in your organization can collaboratively plan, build, secure, and deploy software to drive business outcomes faster with complete transparency, consistency and traceability.
+  
+  - name: "NolaCon"
+    url: "https://www.nolacon.com"
+    logo: "/assets/img/sponsors/nolacon.png"
+    description: >
+      NolaCon is an Information Security/Hacker conference for professionals
+      and enthusiasts alike located in New Orleans, offering training as well
+      interesting and inventive talks and workshops.
+
+  # TODO: Also add link in happy hour schedule entry
+  # - name: "Boardy Bell, Bond Bell & Co"
+  #   url: ""
+  #   logo: "/assets/img/sponsors/boardy.png"
+  #   description: >
+  #     TODO
+
+  # TODO:
+  # - name: "LockSport"
+  #   url: ""
+  #   logo: "/assets/img/sponsors/locksport.png"
+  #   description: >
+  #     TODO
 ---
 
 ## Our Sponsors:
