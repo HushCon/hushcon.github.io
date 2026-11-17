@@ -26,6 +26,22 @@ physical appearance, body size, race, or religion. Prohibited conduct includes
 offensive comments, intimidation, stalking, unwelcome photography, disruption
 of events, and inappropriate contact. Violators may be removed.
 
+### Recordings
+
+HushCon is off the record. Always has been. Better recording technology is not
+an invitation to test that boundary. No audio or video recording, including
+on your pocket-sized surveillance rectangle. Keep your phone's camera and
+microphone off.
+
+Camera-equipped glasses and other wearable recording
+devices are not allowed in the conference. "It's turned off" is not an
+exception. Leave them at home; if you need prescription glasses, bring a
+pair without a camera.
+
+Showing up with a wearable recording device will be treated the same as
+recording a session, and either will get you removed. Respect the privacy of
+the people in the room, or don't be in the room.
+
 ### Zombie Outbreaks
 
 In the event of a zombie outbreak during this conference, organizers shall
