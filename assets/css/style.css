@@ -147,7 +147,7 @@ a { color: var(--link); }
 .sponsor-logo img {
   width: 100%;
   height: auto;
-  border: 1px solid var(--panel-border);
+  border: none;
   border-radius: 3px;
 }
 .sponsor-body { flex: 1; }
