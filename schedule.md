@@ -78,7 +78,7 @@ days:
         title: "Hacking Everyone Because Python Sandboxing is still Broken by Design"
         speaker: "Darius Houle, Buck Mayzes, & Kiwi"
       - time: "15:00"
-        title: "Happy Hour Sponsored by Boardy Bell, Bond Bell & Co"
+        title: "Happy Hour Sponsored by [Boardy Bell, Bond Bell & Co](https://bondbellandco.com/)"
         speaker: ""
       - time: "16:00"
         title: "Every Price Has a Frequency: Reverse Engineering a Retail ESL Ecosystem from Shelf to SDR"
