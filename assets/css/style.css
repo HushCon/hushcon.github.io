@@ -137,7 +137,7 @@ a { color: var(--link); }
 /* ---------- Sponsors ---------- */
 .sponsor {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   padding: 20px;
 }
