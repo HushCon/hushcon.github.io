@@ -25,7 +25,7 @@ days:
         title: "Doors Open + Registration"
       - time: "10:45"
         title: "The Source Wiped It, the Binary Kept It"
-        speaker: "Pete Brandy"
+        speaker: "Pete Brady"
       - time: "11:15"
         title: "Bleeding Out: [REDACTED]"
         speaker: "[REDACTED]"
